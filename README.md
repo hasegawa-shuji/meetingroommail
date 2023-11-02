@@ -24,7 +24,7 @@ URLが書かれたメールがターミナルコンソールに来るのでブ�
 ![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/6c59fe8e-1095-4308-bda5-984f02f2b41c)
 
 
-予約内容を入力
+予約情報を入力
 
 ![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/18120e93-2afd-488c-9461-b3c95cac4527)
 
