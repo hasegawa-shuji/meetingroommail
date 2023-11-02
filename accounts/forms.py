@@ -7,9 +7,9 @@ from django.utils.encoding import force_bytes, force_text
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.conf import settings
 from django.contrib.auth.forms import UserCreationForm
-from .models import CustomUser
-# from django.contrib.auth import get_user_model
-# CustomUser = get_user_model()
+# from .models import CustomUser
+from django.contrib.auth import get_user_model
+CustomUser = get_user_model()
 
 
 class ProfileForm(forms.Form):
@@ -42,7 +42,7 @@ message_template = """
 def get_activate_url(user):
     uid = urlsafe_base64_encode(force_bytes(user.pk))
     token = default_token_generator.make_token(user)
-    return settings.FRONTEND_URL + "activate/{}/{}/".format(uid, token)
+    return settings.FRONTEND_URL + "/activate/{}/{}/".format(uid, token)
 
 
 class CustomUserCreationForm(UserCreationForm):

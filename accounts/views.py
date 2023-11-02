@@ -47,7 +47,7 @@ class ProfileEditView(LoginRequiredMixin, View):
             if request.FILES.get('image'):
                 user_data.image = request.FILES.get('image')
             user_data.save()
-            return redirect('profile')
+            return redirect('accounts:profile')
 
         return render(request, 'accounts/profile.html', {
             'form': form,

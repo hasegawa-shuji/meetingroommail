@@ -154,7 +154,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # AUTH_USER_MODEL = 'accounts.CustomUser'　上にあり
 
 #メールに記載するサイトのURLを設定
-FRONTEND_URL = 'http://localhost:8000/'
+FRONTEND_URL = 'http://localhost:8000'
 
 #メールシステムを実際に使うのは少し手間なので開発用にコンソールでメールをシミュレーションします
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

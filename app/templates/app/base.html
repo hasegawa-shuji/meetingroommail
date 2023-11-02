@@ -26,14 +26,14 @@
                         <a href="{% url 'accounts:profile' %}" class="nav-link">プロフィール</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{% url 'account_logout' %}" class="nav-link">ログアウト</a>
+                        <a href="{% url 'accounts:account_logout' %}" class="nav-link">ログアウト</a>
                     </li>
                 {% else %}
                     <li class="nav-item">
-                        <a href="{% url 'account_signup' %}" class="nav-link">スタッフ</a>
+                        <a href="{% url 'accounts:account_signup' %}" class="nav-link">スタッフ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{% url 'account_login' %}" class="nav-link">ログイン</a>
+                        <a href="{% url 'accounts:account_login' %}" class="nav-link">ログイン</a>
                     </li>
                 {% endif %}
             </ul>
