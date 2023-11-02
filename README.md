@@ -34,6 +34,12 @@ URLが書かれたメールがターミナルコンソールに来るのでブ�
 ![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/29ffd82d-51ef-41d8-ac46-6a1b7f4d9bbb)
 
 
+予約が完了すると予約表に苗字が表示されます
+
+![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/fcfa7903-e682-438f-8e4e-60f06e86f17c)
+
+
+
 
 
 
