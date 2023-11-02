@@ -16,12 +16,24 @@ URLが書かれたメールがターミナルコンソールに来るのでブ�
 ## ホーム画面
 まず予約したい日を選択　月を選ぶ場合は前月次月ボタンで月を選択します
 
-![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/9dceaf8c-4abe-4eee-92c6-188b3ccf8901)
+![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/d3b27990-0473-4a29-a485-ddb8d0db62f9)
 
 
-予約日時を確認します
+予約日時を選択
 
-![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/d9679fe5-b3f7-4db7-ba9f-5cdd7cbce2bd)
+![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/6c59fe8e-1095-4308-bda5-984f02f2b41c)
+
+
+予約内容を入力
+
+![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/18120e93-2afd-488c-9461-b3c95cac4527)
+
+
+右上のマイページで予約の確認と取消ができます
+
+![image](https://github.com/hasegawa-shuji/meetingroommail/assets/102946478/29ffd82d-51ef-41d8-ac46-6a1b7f4d9bbb)
+
+
 
 
 
